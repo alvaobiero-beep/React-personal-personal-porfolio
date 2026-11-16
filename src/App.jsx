@@ -8,9 +8,9 @@ import Contacts from './components/Contacts'
 const App = () => {
  
   return (
-    <div className='container'>
+    <div className='container'  >
 
-     <Navbar/>
+     <Navbar name = "Home" about =" About" skills = "Skills" projects = "Projects" contacts ="Contacts"    />
      <Hero/>
      <Skills/>
       <Projects/>
