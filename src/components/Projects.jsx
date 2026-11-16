@@ -48,7 +48,7 @@ const Projects = () => {
 
     <div className='project-input'>
         <input type="text"  value={name} placeholder='Project-name' onChange={handleName} required /><br />
-        <input type="text"   value={title}  placeholder='Projects Title' onChange={handleTitle}/><br />
+        <input type="text"   value={title}  placeholder='Backend Or Frontend' onChange={handleTitle}/><br />
         <select value={category} onChange={handleCategory} >
             <option value=""> Select category</option>
             <option value="Html">Select Html</option>

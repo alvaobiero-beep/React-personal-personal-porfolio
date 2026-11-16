@@ -154,8 +154,6 @@ section {
   gap: 14px;
   margin-top: 24px;
 }
-
-.btn-primary,
 .btn-outline {
   padding: 12px 28px;
   border-radius: 999px;
